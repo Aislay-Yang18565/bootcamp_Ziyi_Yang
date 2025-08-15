@@ -44,7 +44,7 @@ Textile traders experience 18-22% profit erosion due to cotton price volatility 
 # Repo Plan  
 | Directory    | Purpose                  | Update Frequency |  
 |--------------|--------------------------|------------------|  
-| /data/raw    | Raw ICE Futures data     | Weekly (Mon 9AM) |  
+| /data/raw    | Raw ICE Futures data     | Weekly           |  
 | /notebooks/  | Price forecasting models | Biweekly         |  
 
 
