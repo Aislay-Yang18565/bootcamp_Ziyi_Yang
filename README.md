@@ -41,7 +41,25 @@ Textile traders experience 18-22% profit erosion due to cotton price volatility 
 - **Latency**: Weekly data updates must process within ≤2 hours  
 - **Compliance**: Must follow INCOTERMS 2020 regulations  
 
-# Repo Plan  
+## Lifecycle Mapping
+| Goal                  | Stage     | Deliverable                     |
+|-----------------------|-----------|---------------------------------|
+| Define cost drivers   | Stage 01  | Cotton market analysis report   |
+| Predict price trends  | Stage 02  | Time-series forecasting model   |
+| Optimize logistics    | Stage 03  | Route optimization API          |
+
+# Repo Plan   
+- **data/**:  
+  - **raw/**: ICE Futures historical data (CSV) 
+  - **processed/**: Cleaned price trajectories (Parquet)
+- **src/**: Python scripts for SAP data extraction 
+- **notebooks/**: Dashboard containing:  
+  - **price_forecasting.ipynb**
+  - **route_optimization.ipynb**
+- **docs/**: Dashboard containing:  
+  - **stakeholder_memo.md**: Stakeholder communication
+  - **incoterms_compliance.pdf**: Trade regulations
+
 | Directory    | Purpose                  | Update Frequency |  
 |--------------|--------------------------|------------------|  
 | /data/raw    | Raw ICE Futures data     | Weekly           |  
