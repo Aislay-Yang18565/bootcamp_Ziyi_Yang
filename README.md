@@ -14,91 +14,38 @@ GitHub.
 
 
 
-Here's a complete example for the traditional trade industry (focusing on textile export-import operations):
+Here's the professional English version of your textile trade project scoping document:
 
----
-
-### # Project Title: **Textile Trade Profitability Optimizer**  
-**Stage:** Problem Framing & Scoping (Stage 01)  
-
----
+### # Project Title: **Textile Import-Export Profitability Optimizer**  
+**Stage:** Problem Framing & Scoping  
 
 ### # Problem Statement  
-Traditional textile traders face 18-22% profit erosion due to volatile cotton prices and inefficient logistics routing. Manual price forecasting methods result in 30% inaccurate procurement decisions, causing $2.4M annual losses for mid-sized trading firms. The CFO (primary stakeholder) needs data-driven tools to optimize purchase timing and shipping routes before quarterly supplier negotiations in March/September.  
-
----
+Traditional textile traders experience 18-22% profit erosion due to cotton price volatility and inefficient logistics routes. Current manual forecasting methods result in 30% procurement decision errors, causing annual losses of approximately $2.4M for mid-sized enterprises.  
 
 ### # Stakeholder & User  
-- **Decision-maker**: CFO - Approves bulk cotton purchases (>500MT) based on cost projections  
+- **Decision-maker**: CFO (approves cotton purchases >500 metric tons)  
 - **End-users**:  
-  - Procurement team - Uses price forecasts to time orders  
-  - Logistics managers - Implements recommended shipping routes  
-- **Workflow**: Forecasts required 48hrs before biweekly procurement meetings  
-
----
+  - Procurement team (schedules orders based on forecasts)  
+  - Logistics managers (implements recommended shipping routes)  
+- **Critical timing**: Reports must be generated 2 weeks before quarterly supplier negotiations  
 
 ### # Useful Answer & Decision  
-- **Type**: Predictive analytics  
-- **Metrics**:  
-  - Cotton price prediction accuracy (±5% of actual)  
-  - Logistics cost reduction (% saved vs current routes)  
-- **Artifact**: Interactive dashboard showing:  
-  - 90-day price trend forecasts  
-  - Optimal shipping route maps  
-
----
+- **Analysis type**: Predictive  
+- **Key metrics**:  
+  - Cotton price prediction accuracy (±5% error margin)  
+  - Percentage reduction in logistics costs  
+- **Deliverable**: Interactive dashboard containing:  
+  - 90-day price forecast curves  
+  - Optimal maritime shipping routes  
 
 ### # Assumptions & Constraints  
-- **Data**:  
-  - Available: Historical cotton prices (ICE Futures), port fees, fuel costs  
-  - Unavailable: Supplier-specific contract terms (NDA-protected)  
-- **Technical**:  
-  - Max 2hr processing time for weekly data refresh  
-  - Must integrate with existing ERP system (SAP)  
-- **Compliance**: Adhere to INCOTERMS 2020 trade rules  
-
----
-
-### # Known Unknowns / Risks  
-- **Volatility factors**:  
-  - Unpredictable weather impacts on cotton yield  
-  - Geopolitical disruptions to shipping lanes  
-- **Mitigation**:  
-  - Monitor USDA crop reports weekly  
-  - Build 3 scenario models (optimistic/neutral/pessimistic)  
-
----
-
-### # Lifecycle Mapping  
-| Goal → | Stage → | Deliverable → |  
-|--------|---------|---------------|  
-| Define cost drivers | Stage 01 | Cotton market analysis report |  
-| Predict price trends | Stage 02 | Time-series forecasting model |  
-| Optimize logistics | Stage 03 | Route optimization API |  
-
----
+- **Data**: Access to ICE Futures historical data, but no supplier contract details (NDA-protected)  
+- **Latency**: Weekly data updates must process within ≤2 hours  
+- **Compliance**: Must adhere to INCOTERMS 2020 regulations  
 
 ### # Repo Plan  
-- **/data/**:  
-  - `raw/` - ICE Futures historical data (CSV)  
-  - `processed/` - Cleaned price trajectories (Parquet)  
-- **/src/**: Python scripts for SAP data extraction  
-- **/notebooks/**:  
-  - `price_forecasting.ipynb` (Prophet model)  
-  - `route_optimization.ipynb` (OR-Tools)  
-- **/docs/**:  
-  - `stakeholder_memo.md`  
-  - `incoterms_compliance.pdf`  
+| Directory      | Purpose                     | Update Frequency |  
+|----------------|-----------------------------|------------------|  
+| /data/raw      | Raw ICE Futures data         | Weekly (Mon 9AM) |  
+| /notebooks/    | Price forecasting models     | Biweekly         |  
 
-**Update cadence**:  
-- Commit price data every Monday 9AM GMT  
-- Push model improvements biweekly  
-
----
-
-### Key Features for Traditional Trade:  
-1. **Compliance-focused**: Built-in INCOTERMS rule checker  
-2. **Double-layer validation**: Compare ML forecasts with veteran traders' intuition  
-3. **Explainable outputs**: Audit-ready decision trails for customs compliance  
-
-This template addresses unique pain points in physical commodity trading while meeting academic requirements. Would you like me to adjust any section (e.g., add more technical specifics for the predictive model)?
