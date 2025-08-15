@@ -1,6 +1,6 @@
 # bootcamp_Ziyi_Yang
 
-# Bootcamp Repository
+# Homework 0 Bootcamp Repository
 ## Folder Structure
 - **homework/** → All homework contributions will be submitted here.
 - **project/** → All project contributions will be submitted here.
@@ -14,7 +14,7 @@ GitHub.
 
 
 
-# Project Title: **Textile Import-Export Profitability Optimizer**  
+# Homework 1 Project Title: **Textile Import-Export Profitability Optimizer**  
 **Stage:** Problem Framing & Scoping  
 
 # Problem Statement  
