@@ -39,7 +39,11 @@ Textile traders experience 18-22% profit erosion due to cotton price volatility 
 # Assumptions & Constraints  
 - **Data**: Access to ICE Futures history but no supplier contracts (NDA-protected)  
 - **Latency**: Weekly data updates must process within ≤2 hours  
-- **Compliance**: Must follow INCOTERMS 2020 regulations  
+- **Compliance**: Must follow INCOTERMS 2020 regulations
+
+# Known Unknowns / Risks
+- Data quality: There were missing data before 2021 (interpolation will be used for processing).
+- Model drift: Plan to retrain every quarter****
 
 ## Lifecycle Mapping
 | Goal                  | Stage     | Deliverable                     |
