@@ -1,0 +1,10 @@
+PACKAGES AND LIBRARIES:
+
+pandas
+numpy
+matplotlib
+seaborn
+ta
+backtrader
+notebook
+ipykernel

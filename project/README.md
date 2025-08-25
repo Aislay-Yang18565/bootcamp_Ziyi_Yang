@@ -1,0 +1,7 @@
+# Short Project Summary
+This project develops and evaluates a trading strategy for soybean meal futures based on the Moving Average Convergence Divergence (MACD) indicator, specifically focusing on golden cross and death cross signals. By backtesting the strategy, the project assesses its profitability, risk levels, and robustness compared to baseline benchmarks. The problem it addresses is how to systematically capture short- and medium-term price trends in agricultural commodities, where volatility, seasonality, and supply-demand shocks often make traditional trading approaches unreliable.
+
+This matters because soybean meal is a globally traded commodity that plays a key role in the livestock and food industries. Developing systematic, data-driven strategies helps traders and risk managers reduce reliance on subjective decision-making, improve timing of market entry and exit, and potentially enhance returns while managing risk exposure.
+
+# Stakeholder Persona / Context
+The primary stakeholders are **commodity traders**, **portfolio managers**, and **risk management analysts** who deal with agricultural futures markets. They care about reliable strategies that balance profitability with risk control, particularly in volatile markets like soybean meal where prices are influenced by global supply chains, weather conditions, and policy changes. These stakeholders value backtested evidence, clear risk-return metrics, and practical trading rules that can be integrated into broader portfolio or hedging strategies.
