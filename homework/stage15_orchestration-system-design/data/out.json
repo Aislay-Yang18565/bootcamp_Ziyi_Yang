@@ -1,0 +1,10 @@
+{
+  "payload": {
+    "message": "placeholder"
+  },
+  "meta": {
+    "timestamp": "2025-08-28T16:09:34Z",
+    "input_path": "data\\in.ext",
+    "input_bytes": 25
+  }
+}

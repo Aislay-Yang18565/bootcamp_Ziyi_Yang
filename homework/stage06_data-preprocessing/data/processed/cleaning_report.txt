@@ -1,0 +1,11 @@
+Data Cleaning Report
+========================================
+Cleaning timestamp: 2025-08-19 10:43:15.016443
+
+Raw data shape: (5, 5)
+Processed data shape: (1, 5)
+
+Cleaning steps:
+- Drop excessive missing data: 5 ¡ú 1 rows, 5 ¡ú 5 columns
+- Median imputation: No change rows, No change columns
+- Data normalization: No change rows, No change columns

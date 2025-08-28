@@ -1,0 +1,53 @@
+rank,company,industry,revenue_(usd_millions),net_income_(usd_millions),total_assets_(usd_billions),headquarters
+1,Transamerica Corporation,Insurance,245510,"42,521",873,United States
+2,Ping An Insurance Group,Insurance,191509,"20,738",1460,China
+3,ICBC,Banking,182794,"45,783",5110,China
+4,China Construction Bank,Banking,172000,"39,282",4311,China
+5,Agricultural Bank of China,Banking,153884,"31,293",4169,China
+6,China Life Insurance,Insurance,144589,"4,648",776,China
+7,Allianz,Insurance,136173,"7,756",1297,Germany
+8,Bank of China,Banking,134045,"27,952",3739,China
+9,JP Morgan Chase,Banking,129503,"29,131",3386,United States
+10,AXA,Insurance,128011,"3,605",984,France
+11,Fannie Mae,Investment Services,106437,"11,805",3985,United States
+12,Life Insurance Corporation of India,Insurance,102851,"4,954",630,India
+13,Generali Group,Insurance,97128,"1,987",667,Italy
+14,Bank of America,Banking,93753,"17,894",2819,United States
+15,Citigroup,Banking,88839,"11,047",2260,United States
+16,People's Insurance Company,Insurance,84290,"2,903",192,China
+17,Crédit Agricole,Banking,82958,"3,067",2399,France
+18,BNP Paribas,Banking,81632,"8,052",3045,France
+18,HSBC,Banking,134901,"23,533",3038,United Kingdom
+20,Wells Fargo,Banking,80303,"3,301",1955,United States
+21,State Farm,Insurance,78898,"3,738",299,United States
+22,Nippon Life,Insurance,76984,"3,127",773,Japan
+23,Munich Re,Insurance,74074,"1,379",364,Germany
+24,Dai-ichi Life,Insurance,73841,"3,431",574,Japan
+25,Banco Santander,Banking,73630,,1845,Spain
+26,North american,Insurance,67842,"5,407",795,United States
+27,Bank of Communications,Banking,67605,"11,409",1639,China
+28,Freddie Mac,Investment Services,66228,"7,326",2627,United States
+29,Legal & General Group,Insurance,63324,"2,061",779,United Kingdom
+30,Brookfield Asset Management,Investment Services,62752,,343,Canada
+31,Aviva,Insurance,62579,"3,588",655,United Kingdom
+32,China Pacific Insurance,Insurance,61185,"3,562",271,China
+33,China Merchants Bank,Banking,60433,"14,107",1281,China
+34,Zurich Insurance Group,Insurance,59001,"3,834",439,Switzerland
+35,Manulife Financial,Insurance,58840,"4,377",691,Canada
+36,Aegon,Insurance,58221,,543,Netherlands
+37,Prudential Financial,Insurance,57033,,940,United States
+38,Mitsubishi UFJ Financial Group,Banking,56838,"7,329",3250,Japan
+39,Prudential,Insurance,55973,"2,118",516,United Kingdom
+40,StoneX Group Inc.,Investment Services,54139,169,13,United States
+41,Goldman Sachs,Investment Services,53498,"9,459",1163,United States
+42,Industrial Bank,Banking,53313,"9,655",1209,China
+43,Shanghai Pudong Development,Banking,52628,"8,443",1219,China
+44,Société Générale,Banking,52068,,1789,France
+45,Morgan Stanley,Investment Services,52047,"10,996",1115,United States
+46,State Bank of India,Banking,51919,"3,018",662,India
+47,Tokio Marine Holdings,Insurance,51516,"1,526",232,Japan
+48,AIA Group,Insurance,50359,"5,779",326,Hong Kong
+49,China Minsheng Banking,Banking,49076,"4,972",1065,China
+50,Power Corporation of Canada,Insurance,48183,"1,525",493,Canada
+51,Talanx,Insurance,46788,766,221,Germany
+52,Lloyds Banking Group,Banking,14592,"1,882",1183,United Kingdom
